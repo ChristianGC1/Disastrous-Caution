@@ -34,6 +34,7 @@ public class EnemyPlane : MonoBehaviour
             GetComponent<SimpleFlashColored>().Flash(Color.white);
             Debug.Log("Enemy hit!");
             GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            AudioManager.PlaySound("Explosion");
             Destroy(gameObject);
         }
 
@@ -42,6 +43,7 @@ public class EnemyPlane : MonoBehaviour
             GetComponent<SimpleFlashColored>().Flash(Color.white);
             Debug.Log("Enemy hit Enemy!");
             GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            AudioManager.PlaySound("Explosion");
             Destroy(gameObject);
         }
     }

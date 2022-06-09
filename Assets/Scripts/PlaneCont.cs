@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlaneCont : MonoBehaviour
 {
@@ -87,11 +88,22 @@ public class PlaneCont : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.tag == "TestWall")
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.red);
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            rb.velocity = Vector2.zero;
+            this.enabled = false;
+            SceneManager.LoadScene(1);
+            
+        }
+
         if (other.tag == "DeathWall")
         {
             GetComponent<SimpleFlashColored>().Flash(Color.red);
             GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
             rb.velocity = Vector2.zero;
+            AudioManager.PlaySound("DamageTwo");
             this.enabled = false;
             gameManager.GameOver();
         }
@@ -101,6 +113,7 @@ public class PlaneCont : MonoBehaviour
             GetComponent<SimpleFlashColored>().Flash(Color.red);
             GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
             rb.velocity = Vector2.zero;
+            AudioManager.PlaySound("DamageTwo");
             this.enabled = false;
             gameManager.GameOver();
         }

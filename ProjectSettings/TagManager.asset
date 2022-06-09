@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - CloudA
   - CloudB
+  - TestWall
   layers:
   - Default
   - TransparentFX
