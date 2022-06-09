@@ -26,5 +26,10 @@ public class Bullet : MonoBehaviour
             Debug.Log("Bullet Destroyed");
             Destroy(gameObject);
         }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Bullet hit Enemy");
+            PlaneCont.score++;
+        }
     }
 }

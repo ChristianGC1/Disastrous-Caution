@@ -7,6 +7,8 @@ TagManager:
   - PlayerBullet
   - DeathWall
   - Enemy
+  - CloudA
+  - CloudB
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public GameObject gameOverCanvas;
     public Text speedDisplay;
+    public Text scoreDisplay;
+    public Text scoreHighDisplay;
 
     public void Start()
     {
@@ -17,6 +19,8 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         speedDisplay.text = " " + PlaneCont.speed;
+        scoreDisplay.text = " " + PlaneCont.score;
+        scoreHighDisplay.text = " " + PlaneCont.scoreHigh;
     }
 
     public void GameOver()
@@ -32,6 +36,6 @@ public class GameManager : MonoBehaviour
 
     public void Replay()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }

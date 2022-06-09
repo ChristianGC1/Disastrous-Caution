@@ -8,9 +8,12 @@ public class PlaneCont : MonoBehaviour
     Rigidbody2D rb;
     public GameObject explosionEffect;
     public GameManager gameManager;
-    public static int speed = 10;
+    public static float speed = 10;
     public float acceleration;
+    public float speedMult;
     public float rotationControl;
+    public static int score = 0;
+    public static int scoreHigh;
 
     float MovY, MovX = 1;
 
@@ -18,27 +21,33 @@ public class PlaneCont : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         speed = 10;
+        score = 0;
     }
 
     void Update()
     {
         MovY = Input.GetAxis("Horizontal");
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             //Add more speed
-            if (speed >= 0)
+            if (speed < 75)
             {
-                speed++;
+                speed+= Time.deltaTime * speedMult;
             }
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))
         {
             //Lower speed
-            if (speed <= 100)
+            if (speed > 10)
             {
-                speed--;
+                speed -= Time.deltaTime * speedMult;
             }
+        }
+
+        if (score > scoreHigh)
+        {
+            scoreHigh = score;
         }
     }
 
@@ -79,6 +88,15 @@ public class PlaneCont : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "DeathWall")
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.red);
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            rb.velocity = Vector2.zero;
+            this.enabled = false;
+            gameManager.GameOver();
+        }
+
+        if (other.tag == "Enemy")
         {
             GetComponent<SimpleFlashColored>().Flash(Color.red);
             GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
