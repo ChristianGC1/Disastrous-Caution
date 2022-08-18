@@ -108,7 +108,37 @@ public class PlaneCont : MonoBehaviour
             gameManager.GameOver();
         }
 
-        if (other.tag == "Enemy")
+        if (other.tag == "Enemy0")
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.red);
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            rb.velocity = Vector2.zero;
+            AudioManager.PlaySound("DamageTwo");
+            this.enabled = false;
+            gameManager.GameOver();
+        }
+
+        if (other.tag == "Enemy1")
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.red);
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            rb.velocity = Vector2.zero;
+            AudioManager.PlaySound("DamageTwo");
+            this.enabled = false;
+            gameManager.GameOver();
+        }
+
+        if (other.tag == "Enemy2")
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.red);
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            rb.velocity = Vector2.zero;
+            AudioManager.PlaySound("DamageTwo");
+            this.enabled = false;
+            gameManager.GameOver();
+        }
+
+        if (other.tag == "Enemy3")
         {
             GetComponent<SimpleFlashColored>().Flash(Color.red);
             GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);

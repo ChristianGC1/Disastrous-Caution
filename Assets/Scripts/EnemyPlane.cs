@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class EnemyPlane : MonoBehaviour
 {
+    public delegate void EnemyDestroyedAction();
+    public static EnemyDestroyedAction OnDestroyedEnemy;
+
     Rigidbody2D rb;
     public Transform target;
     public GameManager gameManager;
@@ -31,6 +34,11 @@ public class EnemyPlane : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
+            if (OnDestroyedEnemy != null)
+            {
+                OnDestroyedEnemy();
+            }
+
             GetComponent<SimpleFlashColored>().Flash(Color.white);
             Debug.Log("Enemy hit!");
             GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
@@ -38,7 +46,34 @@ public class EnemyPlane : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy0") || other.gameObject.CompareTag("Enemy1") || other.gameObject.CompareTag("Enemy2") || other.gameObject.CompareTag("Enemy3"))
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.white);
+            Debug.Log("Enemy hit Enemy!");
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            AudioManager.PlaySound("Explosion");
+            Destroy(gameObject);
+        }
+
+        if (other.gameObject.CompareTag("Enemy1"))
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.white);
+            Debug.Log("Enemy hit Enemy!");
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            AudioManager.PlaySound("Explosion");
+            Destroy(gameObject);
+        }
+
+        if (other.gameObject.CompareTag("Enemy2"))
+        {
+            GetComponent<SimpleFlashColored>().Flash(Color.white);
+            Debug.Log("Enemy hit Enemy!");
+            GameObject explosionEffectIns = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            AudioManager.PlaySound("Explosion");
+            Destroy(gameObject);
+        }
+
+        if ((other.gameObject.CompareTag("Enemy3")) && (other.gameObject.CompareTag("Enemy2")))
         {
             GetComponent<SimpleFlashColored>().Flash(Color.white);
             Debug.Log("Enemy hit Enemy!");

@@ -26,10 +26,25 @@ public class Bullet : MonoBehaviour
             Debug.Log("Bullet Destroyed");
             Destroy(gameObject);
         }
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy0")
         {
             Debug.Log("Bullet hit Enemy");
-            PlaneCont.score++;
+            PlaneCont.score += 1;
+        }
+        if (collision.gameObject.tag == "Enemy1")
+        {
+            Debug.Log("Bullet hit Enemy");
+            PlaneCont.score += 2;
+        }
+        if (collision.gameObject.tag == "Enemy2")
+        {
+            Debug.Log("Bullet hit Enemy");
+            PlaneCont.score += 3;
+        }
+        if (collision.gameObject.tag == "Enemy3")
+        {
+            Debug.Log("Bullet hit Enemy");
+            PlaneCont.score += 5;
         }
     }
 }
