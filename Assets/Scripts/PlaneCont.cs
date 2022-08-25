@@ -9,11 +9,12 @@ public class PlaneCont : MonoBehaviour
     Rigidbody2D rb;
     public GameObject explosionEffect;
     public GameManager gameManager;
+    public AudioSource propeller;
     public static float speed = 10;
     public float acceleration;
     public float speedMult;
     public float rotationControl;
-    public static int score = 0;
+    public static int score;
     public static int scoreHigh;
 
     float MovY, MovX = 1;
@@ -23,6 +24,9 @@ public class PlaneCont : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         speed = 10;
         score = 0;
+        Debug.Log("Get High Score" + PlayerPrefs.GetInt("scoreHigh"));
+        // Retrieves the High Score
+        scoreHigh = PlayerPrefs.GetInt("scoreHigh");
     }
 
     void Update()
@@ -49,6 +53,8 @@ public class PlaneCont : MonoBehaviour
         if (score > scoreHigh)
         {
             scoreHigh = score;
+            // This saves the high score of the current game
+            PlayerPrefs.SetInt("scoreHigh", scoreHigh);
         }
     }
 

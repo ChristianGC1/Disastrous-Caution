@@ -15,7 +15,7 @@ public class GMTest : MonoBehaviour
 
     private void Update()
     {
-        speedDisplay.text = " " + PlaneCont.speed;
+        speedDisplay.text = " " + PlaneCont.speed.ToString("0.0");
 
         if (Input.GetButtonDown("Submit"))
         {

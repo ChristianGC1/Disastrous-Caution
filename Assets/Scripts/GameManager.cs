@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        speedDisplay.text = " " + PlaneCont.speed;
+        speedDisplay.text = " " + PlaneCont.speed.ToString("0.0");
         scoreDisplay.text = " " + PlaneCont.score;
         scoreHighDisplay.text = " " + PlaneCont.scoreHigh;
     }
@@ -38,4 +38,6 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+
 }

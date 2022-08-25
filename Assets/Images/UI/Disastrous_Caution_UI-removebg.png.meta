@@ -1,0 +1,894 @@
+fileFormatVersion: 2
+guid: 04cbbd09be5186446be57773870ae9b4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 427
+        width: 100
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d5479af72d4e4b8748ef9b4ab483a
+      internalID: -333002613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 426
+        width: 96
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e715a3cc1add894198e256659bf032b
+      internalID: 1943316905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 422
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d057a6444dfad4d939c4cf1f9f34ee
+      internalID: -1472032202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 427
+        width: 105
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778164307366d974b9f06683febf02e1
+      internalID: -1318821308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 361
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b4ec72b869c1f43b9feef872e4354e
+      internalID: -310504958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 326
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26145dfda2c81fc4ab1b4a51dcada443
+      internalID: -1014457617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 321
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099c1e0182823f445a0f6d270190db91
+      internalID: 459434505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 312
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95c3e619d0b96c4fa99c6379ed61d04
+      internalID: 55753929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 325
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2c29b7562b09940921a728af1aa5d3
+      internalID: 1757510707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 325
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85db0a59d9b55c5438fb12b61bc5acd8
+      internalID: 1427554699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 323
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478bc3743010f28469caa0d820365722
+      internalID: -344136885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 239
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a6e179f8098734d8a4e86e837aad0b
+      internalID: 2032870975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 242
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806fef5de3a5e7c4d8c825712b7e8e06
+      internalID: -529765499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 238
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a76eaaac6623c54abfb1ca3f8676d89
+      internalID: -1724155175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 237
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0972d7adb12316348bffe2d002d418e9
+      internalID: -972936405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_15
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 228
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6be2dfde10f7d40b629b839a5b5431
+      internalID: -1686860637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_16
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 234
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7984510e845ebf64d9933f09b0f02dcc
+      internalID: 1647783513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 152
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a76dc9cb537ff4d9654208c514ddc4
+      internalID: 776736927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 137
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39702116fce7dcd4da2d660fc1d42bcd
+      internalID: -302586771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 160
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3c6f71a179fa048bafbcf9facc34e5
+      internalID: -1457816601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 149
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98785d19cdaaeb4eada0e652838ebfe
+      internalID: 1174889089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 149
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2c41a5f44b5cb418a9e78fc8fb7cdf
+      internalID: 2125662010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_22
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 157
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1e2a6c9a356d2429bbab31ad6e3b17
+      internalID: 40542387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 77
+        width: 144
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab2285524f31b54fa807b4f457d9b8b
+      internalID: -2063685938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 87
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e383a763ba84847a1ad51eacd3c90f
+      internalID: -533162754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_25
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 79
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160e9ae14e229654994a6a95d7e32d2b
+      internalID: 1261717377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_26
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 83
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b654dde1f2f1cae4b8457929fb968ed9
+      internalID: 1643606000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_27
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 77
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9926f99d0cfc914b8452fb1b0d526ea
+      internalID: 1174467750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 27
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e4f3923bb041848b4ec40eeaab0007
+      internalID: 85901844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 27
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7e7131bf34bb64bbe3d6111d4ee6c6
+      internalID: -1640504103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_30
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 28
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a99d923ac3a8f74b8a2efd005200b49
+      internalID: -1029228923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_31
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 26
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df77a895387c1c54398ca4d3ad4de8b9
+      internalID: -1818174761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 27
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e400ae1bef4574199d3a134d242b48
+      internalID: -1523006577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disastrous_Caution_UI-removebg_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 26
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4874b74ce1022ba43821891a02a1c4ac
+      internalID: 1550661901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Disastrous_Caution_UI-removebg_8: 1757510707
+      Disastrous_Caution_UI-removebg_31: -1818174761
+      Disastrous_Caution_UI-removebg_13: -1724155175
+      Disastrous_Caution_UI-removebg_21: 2125662010
+      Disastrous_Caution_UI-removebg_11: 2032870975
+      Disastrous_Caution_UI-removebg_25: 1261717377
+      Disastrous_Caution_UI-removebg_17: 776736927
+      Disastrous_Caution_UI-removebg_6: 459434505
+      Disastrous_Caution_UI-removebg_12: -529765499
+      Disastrous_Caution_UI-removebg_1: 1943316905
+      Disastrous_Caution_UI-removebg_33: 1550661901
+      Disastrous_Caution_UI-removebg_28: 85901844
+      Disastrous_Caution_UI-removebg_19: -1457816601
+      Disastrous_Caution_UI-removebg_10: -344136885
+      Disastrous_Caution_UI-removebg_7: 55753929
+      Disastrous_Caution_UI-removebg_20: 1174889089
+      Disastrous_Caution_UI-removebg_32: -1523006577
+      Disastrous_Caution_UI-removebg_3: -1318821308
+      Disastrous_Caution_UI-removebg_18: -302586771
+      Disastrous_Caution_UI-removebg_30: -1029228923
+      Disastrous_Caution_UI-removebg_24: -533162754
+      Disastrous_Caution_UI-removebg_14: -972936405
+      Disastrous_Caution_UI-removebg_16: 1647783513
+      Disastrous_Caution_UI-removebg_22: 40542387
+      Disastrous_Caution_UI-removebg_26: 1643606000
+      Disastrous_Caution_UI-removebg_27: 1174467750
+      Disastrous_Caution_UI-removebg_2: -1472032202
+      Disastrous_Caution_UI-removebg_5: -1014457617
+      Disastrous_Caution_UI-removebg_9: 1427554699
+      Disastrous_Caution_UI-removebg_15: -1686860637
+      Disastrous_Caution_UI-removebg_0: -333002613
+      Disastrous_Caution_UI-removebg_29: -1640504103
+      Disastrous_Caution_UI-removebg_23: -2063685938
+      Disastrous_Caution_UI-removebg_4: -310504958
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
